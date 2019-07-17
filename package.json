@@ -1,0 +1,33 @@
+{
+  "name": "@yeneek/advanced-backend-engine",
+  "version": "1.0.0",
+  "description": "This engine implements several architecture patterns in an easy to use way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captain-refactor/advanced-backend-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captain-refactor/advanced-backend-engine/issues"
+  },
+  "homepage": "https://github.com/captain-refactor/advanced-backend-engine#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/joi": "^15.1.0",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-morph": "^3.1.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3",
+    "yengen": "^0.2.0"
+  }
+}
